@@ -8,10 +8,12 @@ Code Igniter SQL Driven CRUD Implementation Library that uses Prime UI as design
 
 # Usage
 1. Controller Page
+
 $this->load->library('crud');
 $data["crud_table"] = $this->crud->datatable("select vehicle_id, vehicle_no, name, description from t020_vehicle");
 
-2. View Page. 
+2. View Page
+
 <link rel="stylesheet" type="text/css" href="<?=base_url('resources/jquery-ui/jquery-ui.min.css')?>" />
 <link rel="stylesheet" type="text/css" href="<?=base_url('resources/font-awesome/css/font-awesome.min.css')?>" />
 <link rel="stylesheet" type="text/css" href="<?=base_url('resources/primeui/primeui-2.0-min.css')?>" />

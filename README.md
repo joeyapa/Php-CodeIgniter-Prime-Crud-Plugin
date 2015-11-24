@@ -4,11 +4,12 @@ Code Igniter SQL Driven CRUD Implementation Library that uses Prime UI as design
 The crud library is sql driven, where-in you only need to include your select query and it will handle related crud (create, read, update and delete) functions. 
 
 # History
-August 2015: Initial draft. 
+August 2015: Initial draft. <br>
 November 2015: Updated design, description and goals
 
 # Requirement
-To use the plugin the following libaries and changes are needed
+To use the plugin the following libaries and changes are needed.
+
 1. Import Jquery Core 1.6+
 2. Import Jquery UI 1.11.4+
 3. Import PrimeUI 2.0+
